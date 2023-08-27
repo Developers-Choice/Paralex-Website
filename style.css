@@ -40,6 +40,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -130,10 +131,12 @@ body {
     
     max-width: 1170px;
     margin: auto;
+
 }
 
 .row{
     display: flex;
+    
     
 }
 
@@ -281,5 +284,6 @@ ul{
         height: 30px;
         width: 30px;
         line-height: 30px;
+        flex-wrap: wrap;
     }
 }
