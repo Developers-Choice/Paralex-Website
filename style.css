@@ -131,10 +131,12 @@ body {
     
     max-width: 1170px;
     margin: auto;
+
 }
 
 .row{
     display: flex;
+    
     
 }
 
@@ -197,7 +199,7 @@ ul{
 
 .footer-col ul li a:hover{
     color: #ffffff;
-    padding-left: 8px;
+   
 }
 
 .footer-col .social-links a{
@@ -205,7 +207,7 @@ ul{
     height: 40px;
     width: 40px;
     background-color: rgba(255, 255, 255, 0.2);
-    margin-right: 0 10px 10px 0;
+    margin-right: 0 200px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -222,12 +224,34 @@ ul{
 /* responsive */
 
 @media(max-width: 767px){
+    .pimg1,
+.pimg2,
+.pimg3 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 @media(max-width: 574px){
+    .pimg1,
+.pimg2,
+.pimg3 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
     .footer-col {
         width: 100%;
     }
@@ -239,6 +263,17 @@ ul{
 
 /* responsive */
 @media (max-width: 767px) {
+    .pimg1,
+.pimg2,
+.pimg3 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
     .mysection, .mysection2 {
         padding: 15px;
     }
@@ -257,6 +292,17 @@ ul{
 }
 
 @media (max-width: 480px) {
+    .pimg1,
+.pimg2,
+.pimg3 {
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
     .ptext {
         font-size: 28px;
     }
@@ -282,5 +328,64 @@ ul{
         height: 30px;
         width: 30px;
         line-height: 30px;
+        flex-wrap: wrap;
     }
+}
+
+
+@media (max-width: 320px){
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+    
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+        .ptext {
+            font-size: 28px;
+        }
+    
+        .mysection h2, .mysection2 h2 {
+            font-size: 28px;
+        }
+    
+        .mysection p, .mysection2 p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    
+        .footer {
+            padding: 30px 0;
+        }
+    
+        .footer-col ul li a {
+            font-size: 12px;
+        }
+    
+        .social-links a {
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            flex-wrap: wrap;
+        }
+    }
+
+
+@media (max-width: 320px){
+.footer {
+    width: 50%;
+    padding-right: 100%;
+    
+
+
+
+
+}
+
+
+
 }
